@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 
-
 @font-face {
-  font-family: 'Sequel Sans';  /* Replace with your font name */
-  src: local('fonts'),  /* Name of the folder containing your font */
-       url('./fonts/Sequel\ Sans\ TTF/') format('truetype'),  /* Font file path and format */
-      
+  font-family: 'Sequel Sans';  /* Replace with your actual font name */
+  src: local('fonts'),  /* Name of the folder containing your font files */
+       url('./fonts/Sequel Sans Regular.ttf') format('truetype'),  /* Regular font */
+       url('./fonts/Sequel Sans Bold Body.ttf') format('truetype') format('bold'), /* Bold font */
+       url('./fonts/Sequel Sans Light Disp.ttf') format('truetype') format('normal'), /* Bold font */
+       /* Add similar url declarations for other variations (italic, bold-italic, etc.) */;
 }
 
 
@@ -18,9 +19,44 @@ html{
 }
 
 .wrapper{
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  margin: 128px 0px;
 }
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 248px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+.top-bar ul{
+  display: flex;
+  gap: 24px;
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: lighter;
+  color: #2e3335;
+  font-size: 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.logo{
+  font-size: 24px;
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: bold;
+  color: #2e3335;
+}
+
+.navigation{
+  background-color: #efefef;
+  border-radius: 12px;
+}
+
 
 h1{
   width: 50%;
@@ -37,14 +73,14 @@ h1{
 
 
 h2{
-  font-family: "Sequel Sans", Sans;
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-size: 16px;
   width: 50%;
   padding: 16px 0px;
   margin:0 auto;
-  font-size: 16px;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: #2e3335;
+  color: #65696a;
   
 }
