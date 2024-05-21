@@ -24,13 +24,17 @@ html{
   margin-top: 32px;
 }
 
+
+.container{
+  width: 50%;
+  margin: 0px auto;
+}
+
 .top-bar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 248px;
-  margin: 0 auto;
-  width: 50%;
+  padding-bottom: 168px;
 }
 
 
@@ -71,8 +75,6 @@ li:hover{
 }
 
 h1{
-  width: 50%;
-  margin: 0 auto;
   font-size: 38px;
   font-family: "Hedvig Letters Serif", serif;
   font-optical-sizing: auto;
@@ -89,10 +91,17 @@ h2{
   font-weight: 400;
   letter-spacing: -1px;
   font-size: 16px;
-  width: 50%;
-  padding: 16px 0px;
-  margin:0 auto;
+  padding: 4px 0px;
   font-optical-sizing: auto;
   color: #65696a;
   
+}
+
+
+.Sign-up-button{
+  padding: 8px 24px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
 }
