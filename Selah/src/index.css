@@ -10,7 +10,6 @@
 }
 
 
-
 html{
   background-color: #F9F7F2;
   box-sizing: border-box;
@@ -22,6 +21,7 @@ html{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 32px;
 }
 
 .top-bar{
@@ -35,13 +35,14 @@ html{
 
 
 .top-bar ul{
+  padding: 0px;
+  margin: 0px;
   display: flex;
   gap: 24px;
   font-family: "Hedvig Letters Serif", serif;
   font-weight: lighter;
   color: #2e3335;
   font-size: 16px;
-  text-decoration: none;
   list-style-type: none;
 }
 
@@ -53,10 +54,21 @@ html{
 }
 
 .navigation{
-  background-color: #efefef;
-  border-radius: 12px;
+  padding: 8px 16px;
+  border:1px solid #ebe5e5;
+  border-radius: 8px;
 }
 
+
+li:hover{
+  color: black;
+}
+ 
+
+.navigation:hover{
+  background-color:#f3eeee ;
+  border: none;
+}
 
 h1{
   width: 50%;
