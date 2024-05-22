@@ -26,8 +26,11 @@ html{
 
 
 .container{
+  display: flex;
+  flex-direction: column;
   width: 50%;
   margin: 0px auto;
+
 }
 
 .top-bar{
@@ -82,6 +85,7 @@ h1{
   font-style: normal;
   line-height: 48px;
   color: #2e3335;
+  margin: 0px;
   
 }
 
@@ -91,6 +95,7 @@ h2{
   font-weight: 400;
   letter-spacing: -1px;
   font-size: 16px;
+  line-height: 24px;
   padding: 4px 0px;
   font-optical-sizing: auto;
   color: #65696a;
@@ -99,9 +104,61 @@ h2{
 
 
 .Sign-up-button{
+  cursor: pointer;
   padding: 8px 24px;
   color: white;
   background-color: black;
   border: none;
   border-radius: 4px;
+}
+
+.section-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.secondary-heading{
+  margin-top: 64px;
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.features-list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+
+.list-style-type{
+  gap: 32px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.this-class{
+  margin: 0px;
+  color: #65696a;
+}
+
+h3{
+  margin: 4px 0px;
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-size: 16px;
+  line-height: 24px;
 }
