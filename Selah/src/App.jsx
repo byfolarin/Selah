@@ -1,3 +1,4 @@
+import About from './components/website/About'
 import Website from './components/website/Website'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Website />
+      <About />
     </>
   )
 }
