@@ -89,7 +89,6 @@ h1{
   
 }
 
-
 h2{
   font-family: "Hedvig Letters Serif", serif;
   font-weight: 400;
@@ -100,6 +99,10 @@ h2{
   font-optical-sizing: auto;
   color: #65696a;
   
+}
+
+.h2{
+  text-align: center;
 }
 
 

@@ -16,6 +16,7 @@ const Website = () => {
                <ul>
                  <li>Case</li>
                  <li>About</li>
+                 <li>Contact</li>
               </ul>
            </nav>
         </div>
@@ -34,7 +35,7 @@ const Website = () => {
 
       <div className="get-started-button">
         <button className='Sign-up-button'>
-          Register to our Mailing List!
+          Register to our Mailing List
           </button>
       </div>
 
@@ -47,7 +48,7 @@ const Website = () => {
         What are we Building
       </h1>
 
-      <h2>
+      <h2 className='h2'>
           Everything you need to administer your Church.<br /> 
         While you handle offline, we help you set up online
       </h2>
@@ -59,8 +60,8 @@ const Website = () => {
             <div className="list-style-type">
 
           <div>
-          <h3>
-            1. Live Services
+          <h3 >
+           1. Live Services
           </h3>
 
           <p className='this-class'>
@@ -134,6 +135,31 @@ const Website = () => {
 
       <div className="section-3">
         <div className="box"></div>
+
+
+
+
+
+        <div className='secondary-heading'>
+      <h1 >
+        Why are we Building
+      </h1>
+
+      <h2 className='h2'>
+         The Church has an organized process, that needs to be documented <br />
+        and adapted into the digital age. 
+      </h2>
+
+      <div className="get-started-button">
+        <button className='Sign-up-button'>
+          Read About
+          </button>
+      </div>
+
+
+
+      
+      </div>
       </div>
 
       </div>
