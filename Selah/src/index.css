@@ -24,6 +24,11 @@ html{
   margin-top: 32px;
 }
 
+.navv{
+  text-decoration: none;
+  color: black;
+}
+
 
 .container{
   display: flex;
@@ -54,6 +59,7 @@ html{
 }
 
 .logo{
+  text-decoration: none;
   font-size: 24px;
   font-family: "Hedvig Letters Serif", serif;
   font-weight: bold;
@@ -72,10 +78,10 @@ html{
 }
  
 
-.navigation:hover{
+/* .navigation:hover{
   background-color:#f3eeee ;
   border: none;
-}
+} */
 
 h1{
   font-size: 38px;

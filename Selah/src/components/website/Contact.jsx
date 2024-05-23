@@ -1,9 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const Contact = () => {
   return (
-    <div className='container'>
-          <h1>Who are we? 
+    <div>
+       <div>
+      <div className='container'>
+          <h1>Reach Out!
         </h1>
 
         <h2> The Church has an organized process, that needs to be documented <br />
@@ -17,7 +19,9 @@ const About = () => {
       </div>
 
     </div>
+    </div>
+    </div>
   )
 }
 
-export default About
+export default Contact

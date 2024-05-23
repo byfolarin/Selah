@@ -1,9 +1,10 @@
 import React from 'react'
 
-const About = () => {
+const Case = () => {
   return (
-    <div className='container'>
-          <h1>Who are we? 
+    <div>
+      <div className='container'>
+          <h1>Solution we are trying to Offer
         </h1>
 
         <h2> The Church has an organized process, that needs to be documented <br />
@@ -17,7 +18,8 @@ const About = () => {
       </div>
 
     </div>
+    </div>
   )
 }
 
-export default About
+export default Case
