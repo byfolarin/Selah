@@ -7,19 +7,7 @@ const Website = () => {
     <div className='wrapper'>
       <div className="container">
 
-        <div className="top-bar">
-             <div className="logo">
-               Selah!
-              </div>
-
-            <nav className='navigation'>
-               <ul>
-                 <li>Case</li>
-                 <li>About</li>
-                 <li>Contact</li>
-              </ul>
-           </nav>
-        </div>
+        
 
 
 

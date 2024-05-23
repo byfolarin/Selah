@@ -2,15 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-          <h1>Connect, Manage, Thrive: The <br /> 
-            Comprehensive Church Platform <br /> 
-            for Modern Ministry
+    <div className='container'>
+          <h1>Why are we Building
         </h1>
 
-        <h2>With the endless possibilities in our software, 
-            you no longer have to worry about effectively managing
-            your Church and administrative activities.
+        <h2> The Church has an organized process, that needs to be documented <br />
+        and adapted into the digital age. 
         </h2>
 
       <div className="get-started-button">
