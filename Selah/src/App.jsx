@@ -8,15 +8,17 @@ function App() {
     <>
                   <div className="container">
                   <div className="top-bar">
-                      <div className="logo">
-                        Selah!
-                        </div>
+
+                 
+                  <Link to="/"className="logo">Selah!</Link>
+                 
+                
 
                       <nav className='navigation'>
                         <ul>
-                          <li>Case</li>
-                          <li>About</li>
-                          <li>Contact</li>
+                          <Link to="/" className='navv'>Case</Link>
+                          <Link to="/About" className='navv'>About</Link>
+                          <Link to="/" className='navv'>Contact</Link>
                         </ul>
                     </nav>
                   </div>
