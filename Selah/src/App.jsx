@@ -11,12 +11,8 @@ function App() {
     <>
                   <div className="container">
                   <div className="top-bar">
-
-                 
                   <Link to="/"className="logo">Selah!</Link>
                  
-                
-
                       <nav className='navigation'>
                         <ul>
                           <Link to="/Case" className='navv'>Case</Link>
