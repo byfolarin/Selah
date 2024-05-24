@@ -16,6 +16,10 @@ const About = () => {
           </button>
       </div>
 
+      <p className='this-class'>
+        Why are we building what we want to build
+      </p>
+
     </div>
   )
 }
