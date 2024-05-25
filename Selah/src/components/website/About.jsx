@@ -20,6 +20,12 @@ const About = () => {
         Why are we building what we want to build
       </p>
 
+
+
+      <div className="section-2">
+        This section is about the development of ISIS
+      </div>
+
     </div>
   )
 }
