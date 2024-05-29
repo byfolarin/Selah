@@ -14,14 +14,14 @@ const Contact = () => {
 
       <div className="get-started-button">
         <button className='Sign-up-button'>
-          Register to our Mailing List
+         Email Us
           </button>
       </div>
 
 
       <div className="section-div">
       <h3 >
-        We are building something Unique
+        We are building something Unique, for the Christian church. We don't plan to monitize but we plan to build 
       </h3>
       </div>
 
