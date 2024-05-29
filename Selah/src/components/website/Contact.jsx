@@ -18,9 +18,12 @@ const Contact = () => {
           </button>
       </div>
 
+
+      <div className="section-div">
       <h3 >
         We are building something Unique
       </h3>
+      </div>
 
     </div>
     </div>
