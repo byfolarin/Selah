@@ -18,7 +18,7 @@ const Contact = () => {
           </button>
       </div>
 
-      <h3>
+      <h3 >
         We are building something Unique
       </h3>
 

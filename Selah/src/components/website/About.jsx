@@ -10,10 +10,6 @@ const About = () => {
         and adapted into the digital age. 
         </h2>
 
-        <h2> The Church has an organized process, that needs to be documented <br />
-        and adapted into the digital age. 
-        </h2>
-
       <div className="get-started-button">
         <button className='Sign-up-button'>
           Register to our Mailing List
@@ -23,12 +19,6 @@ const About = () => {
       <p className='this-class'>
         Why are we building what we want to build
       </p>
-
-
-
-      <div className="section-2">
-        This section is about the development of ISIS
-      </div>
 
     </div>
   )
