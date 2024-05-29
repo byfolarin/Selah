@@ -20,6 +20,10 @@ const About = () => {
         Why are we building what we want to build
       </p>
 
+      <h3>
+        There's a gap and we will fill it regardless
+      </h3>
+
     </div>
   )
 }
