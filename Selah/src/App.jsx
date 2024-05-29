@@ -7,6 +7,11 @@ import {Routes,Route, Link} from 'react-router-dom'
 
 function App() {
 
+
+  function click (){
+    
+  }
+
   return (
     <>
                   <div className="container">
