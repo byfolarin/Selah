@@ -7,11 +7,6 @@ import {Routes,Route, Link} from 'react-router-dom'
 
 function App() {
 
-
-  function click (){
-    
-  }
-
   return (
     <>
                   <div className="container">
@@ -30,12 +25,10 @@ function App() {
 
 
                   <Routes>
-
                   <Route path='/' element={<Website/>} />
                   <Route path='/About' element={ <About />} />
                   <Route path='/Case' element={ <Case />} />
                   <Route path='/Contact' element={ <Contact/>} />
-
                   </Routes>
     </>
   )
