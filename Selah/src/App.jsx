@@ -2,6 +2,7 @@ import About from './components/website/About'
 import Case from './components/website/Case'
 import Contact from './components/website/Contact'
 import Website from './components/website/Website'
+import Timer from './components/website/Timer'
 import {Routes,Route, Link} from 'react-router-dom'
 
 
@@ -18,6 +19,7 @@ function App() {
                           <Link to="/Case" className='navv'>Case</Link>
                           <Link to="/About" className='navv'>About</Link>
                           <Link to="/Contact" className='navv'>Contact</Link>
+                          <Link to="/Timer" className='navv'>Timer</Link>
                         </ul>
                     </nav>
                   </div>
@@ -29,6 +31,7 @@ function App() {
                   <Route path='/About' element={ <About />} />
                   <Route path='/Case' element={ <Case />} />
                   <Route path='/Contact' element={ <Contact/>} />
+                  <Route path='/Timer' element={ <Timer/>} />
                   </Routes>
     </>
   )
