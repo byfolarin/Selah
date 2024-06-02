@@ -195,3 +195,23 @@ h3{
   align-items: center;
   justify-content: center;
 }
+
+
+
+/* Percentage */
+
+.contains{
+  width: 50%;
+}
+
+.inputss{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn{
+  
+}
