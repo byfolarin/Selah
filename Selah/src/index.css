@@ -202,6 +202,7 @@ h3{
 
 .contains{
   width: 50%;
+  text-align: center;
 }
 
 .inputss{
@@ -213,5 +214,5 @@ h3{
 }
 
 .submit-btn{
-  
+    margin-top: 16px;
 }
