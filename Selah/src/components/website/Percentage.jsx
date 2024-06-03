@@ -13,7 +13,6 @@ const Percentage = () => {
         setPartner(e.target.value);
     }
 
-    useEffect
 
     function clickSort() {
         const calculation = Math.round(Math.random() * 100);
