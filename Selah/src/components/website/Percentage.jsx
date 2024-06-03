@@ -17,7 +17,7 @@ const Percentage = () => {
     function clickSort() {
         const calculation = Math.round(Math.random() * 100);
         const newMessage = `${name} and ${partner} are ${calculation}% compatible`;
-        setMessage(newMessage); // Update state with the new message
+        setMessage(newMessage); 
     }
 
     return (
