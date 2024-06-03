@@ -8,14 +8,10 @@ const Timer = () => {
 useEffect(() => {
     const timerId = setInterval(() => {
       const date = new Date();
-      const hours = date.getHours();
-      const minutes = date.getMinutes();
-      const seconds = date.getSeconds();
+      setHour(date.getHours());
+      setMinute(date.getMinutes());
+      setSeconds(date.getSeconds());
 
-      setHour(hours);
-      setMinute(minutes);
-      setSeconds(seconds);
-      
     }, 1000);
 
     return () => clearInterval(timerId);
