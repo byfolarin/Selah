@@ -13,9 +13,12 @@ const Percentage = () => {
         setPartner(e.target.value);
     }
 
-    // function sortClip {
-    //     const answer = clickBait ().parse 
-    // }
+    const promp =()=>{
+        if(clickBait === " "){
+            console.log('wrong string')
+        }
+    };
+
 
 
     function clickSort() {
