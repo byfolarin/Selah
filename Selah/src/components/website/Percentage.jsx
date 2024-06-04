@@ -13,12 +13,7 @@ const Percentage = () => {
         setPartner(e.target.value);
     }
 
-    const promp =()=>{
-        if(clickBait === " "){
-            console.log('wrong string')
-        }
-    };
-
+    
 
 
     function clickSort() {
@@ -26,6 +21,17 @@ const Percentage = () => {
         const newMessage = `${name} and ${partner} are ${calculation}% compatible`;
         setMessage(newMessage); 
     }
+
+
+    const promp =()=>{
+        if(clickBait === " "){
+            return ({clickSort})
+        }
+         else {
+            console.log("wrong")
+         }
+    };
+
 
     return (
         <div className='contains'>
