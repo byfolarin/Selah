@@ -13,6 +13,10 @@ const Percentage = () => {
         setPartner(e.target.value);
     }
 
+    // function sortClip {
+    //     const answer = clickBait ().parse 
+    // }
+
 
     function clickSort() {
         const calculation = Math.round(Math.random() * 100);
