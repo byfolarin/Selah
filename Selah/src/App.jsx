@@ -7,6 +7,7 @@ import Percentage from './components/website/Percentage'
 import Calculator from './components/website/Calculator'
 import {Routes,Route, Link} from 'react-router-dom'
 import { useState } from 'react'
+import Greeting from './components/website/Greeting'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                           <Link to="/Timer" className='navv'>Timer</Link>
                           <Link to="/Percentage" className='navv'>Percentage</Link>
                           <Link to="/Calculator" className='navv'>Calculator</Link>
+                          <Link to="/Greeting" className='navv'>Greeting</Link>
                         </ul>
                     </nav>
                   </div>
@@ -41,12 +43,13 @@ function App() {
                   <Route path='/Case' element={ <Case />} />
                   <Route path='/Contact' element={ <Contact/>} />
                   <Route path='/Timer' element={ <Timer/>} />
+                  <Route path='/Greeting' element={ <Greeting/>} />
                   <Route path='/Percentage' element={ <Percentage/>} />
                   <Route path='/Calculator' element={ <Calculator 
                   input = {input} setInput = {setInput}
                   newinput = {newinput} setNewinput = {setNewinput}
                   />} />
-                  
+                  #
                   </Routes>
     </>
   )

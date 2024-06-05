@@ -13,12 +13,30 @@ const [display,setDisplay] = useState("Hey")
  }
 
 
-
  function handleClick(){
     const setClick = parseFloat(input) + parseFloat (newinput);
     setDisplay(setClick.toString()); // Update display state with the result
     console.log(setClick);
  }
+
+ function settingClick(){
+    const setClick = parseFloat(input) - parseFloat (newinput);
+    setDisplay(setClick.toString()); // Update display state with the result
+    console.log(setClick);
+ }
+
+ function youClick(){
+    const setClick = parseFloat(input) * parseFloat (newinput);
+    setDisplay(setClick.toString()); // Update display state with the result
+    console.log(setClick);
+ }
+
+ function heyClick(){
+    const setClick = parseFloat(input) / parseFloat (newinput);
+    setDisplay(setClick.toString()); // Update display state with the result
+    console.log(setClick);
+ }
+
 
 
 
@@ -39,9 +57,9 @@ const [display,setDisplay] = useState("Hey")
 
       <div className="new-btn">
         <button onClick={handleClick}>add</button>
-        <button>subtract</button>
-        <button>multiply</button>
-        <button>divide</button>
+        <button onClick={settingClick}>subtract</button>
+        <button onClick={youClick}>multiply</button>
+        <button onClick={heyClick}>divide</button>
         <button>reset input</button>
         <button>reset result</button>
       </div>
