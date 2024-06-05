@@ -13,6 +13,7 @@ function App() {
 
 
   const [input, setInput] = useState("")
+  const [newinput, setNewinput] =useState("")
 
   return (
     <>
@@ -43,6 +44,7 @@ function App() {
                   <Route path='/Percentage' element={ <Percentage/>} />
                   <Route path='/Calculator' element={ <Calculator 
                   input = {input} setInput = {setInput}
+                  newinput = {newinput} setNewinput = {setNewinput}
                   />} />
                   
                   </Routes>

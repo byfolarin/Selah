@@ -225,3 +225,7 @@ h3{
   margin: 24px 0px;
 }
 
+.inputs-container{
+  display: flex;
+  margin: 0px 8px;
+}
