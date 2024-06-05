@@ -12,37 +12,31 @@ const [display,setDisplay] = useState("Hey")
     setNewinput(e.target.value)
  }
 
-
-function solveInput (){
-    const solution = getInput + newInput;
-    return console.log(solution)
-}
-
-// function setActive(){
-//     setDisplay(solveInput)
-// }
-
+ function handleClick(){
+    const setClick = parseFloat(input) + parseFloat (newinput);
+    setDisplay(setClick.toString()); // Update display state with the result
+    console.log(setClick);
+ }
 
 
 
   return (
     <div className='container'>
-      <p>{display}</p>
-
+      <p>Result : {display}</p>
       <div className="inputs-container">
 
       <div className="input">
-        <input type="text" value ={input} onChange={getInput}/>
+        <input type="text" id='input-form' value ={input} onChange={getInput} />
       </div>
 
       <div className="input">
-        <input type="text" value ={newinput} onChange={newInput}/>
+        <input type="text" id='input-forms' value ={newinput} onChange={newInput} />
       </div>
 
-      </div>
+     </div>
 
       <div className="new-btn">
-        <button onClick={solveInput}>add</button>
+        <button onClick={handleClick}>add</button>
         <button>subtract</button>
         <button>multiply</button>
         <button>divide</button>
