@@ -12,8 +12,8 @@ import { useState } from 'react'
 function App() {
 
 
-  const [input, setInput] = useState("")
-  const [newinput, setNewinput] =useState("")
+  const [input, setInput] = useState(0)
+  const [newinput, setNewinput] =useState(0)
 
   return (
     <>

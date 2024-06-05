@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Calculator = ({input,setInput,newinput, setNewinput}) => {
+const Calculator = ({input,setInput,newinput,setNewinput}) => {
 
 const [display,setDisplay] = useState("Hey")
 
@@ -15,10 +15,12 @@ const [display,setDisplay] = useState("Hey")
 
 function solveInput (){
     const solution = getInput + newInput;
-    return solution
+    return console.log(solution)
 }
 
-
+// function setActive(){
+//     setDisplay(solveInput)
+// }
 
 
 
