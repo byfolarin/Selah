@@ -2,6 +2,9 @@ import React from 'react'
 
 const Calculator = ({input,setInput}) => {
 
+ const getInput = (e) =>{
+    setInput(e.target.value)
+ }
 
 
 
@@ -12,7 +15,7 @@ const Calculator = ({input,setInput}) => {
       <p>This will change</p>
 
       <div className="input">
-        <input type="text" value ={input} onChange={setInput}/>
+        <input type="text" value ={input} onChange={getInput}/>
       </div>
 
       <div className="new-btn">
