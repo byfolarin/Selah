@@ -23,15 +23,6 @@ const Percentage = () => {
     }
 
 
-    const promp =()=>{
-        if(clickBait === " "){
-            return ({clickSort})
-        }
-         else {
-            console.log("wrong")
-         }
-    };
-
 
     return (
         <div className='contains'>
