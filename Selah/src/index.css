@@ -216,3 +216,15 @@ h3{
 .submit-btn{
     margin-top: 16px;
 }
+
+/* new btn */
+
+.new-btn{
+  display: flex;
+  gap: 8px;
+  margin: 24px 0px;
+}
+
+button{
+
+}
