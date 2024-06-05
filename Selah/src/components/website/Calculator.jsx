@@ -1,12 +1,18 @@
 import React from 'react'
 
-const Calculator = () => {
+const Calculator = ({input,setInput}) => {
+
+
+
+
+
+
   return (
     <div className='container'>
       <p>This will change</p>
 
       <div className="input">
-        <input type="text" />
+        <input type="text" value ={input} onChange={setInput}/>
       </div>
 
       <div className="new-btn">

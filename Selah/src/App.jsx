@@ -6,9 +6,13 @@ import Timer from './components/website/Timer'
 import Percentage from './components/website/Percentage'
 import Calculator from './components/website/Calculator'
 import {Routes,Route, Link} from 'react-router-dom'
+import { useState } from 'react'
 
 
 function App() {
+
+
+  const [input, setInput] = useState("")
 
   return (
     <>
@@ -37,7 +41,9 @@ function App() {
                   <Route path='/Contact' element={ <Contact/>} />
                   <Route path='/Timer' element={ <Timer/>} />
                   <Route path='/Percentage' element={ <Percentage/>} />
-                  <Route path='/Calculator' element={ <Calculator/>} />
+                  <Route path='/Calculator' element={ <Calculator 
+                  input = {input} setInput = {setInput}
+                  />} />
                   
                   </Routes>
     </>
