@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Calculator = ({input,setInput,newinput,setNewinput}) => {
 
@@ -11,6 +11,8 @@ const [display,setDisplay] = useState("Hey")
  const newInput = (e) =>{
     setNewinput(e.target.value)
  }
+
+
 
  function handleClick(){
     const setClick = parseFloat(input) + parseFloat (newinput);
