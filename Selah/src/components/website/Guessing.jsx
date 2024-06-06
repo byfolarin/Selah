@@ -29,7 +29,7 @@ const Guessing = () => {
 
     <div className="submit-input">
       <p>Enter a guess:</p>
-      <input type="text" />
+      <input type="number" name="Please fill out this" id="" />
       <button>submit</button>
       </div>
     </div>
