@@ -7,7 +7,8 @@ const Greeting = () => {
 
     function sortClick (){
         const inputName = prompt("what's your name");
-        setPrompts(inputName)
+        const jiggy =  setPrompts(inputName)
+        return jiggy
     }
 
 
