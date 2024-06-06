@@ -1,18 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Greeting = () => {
 
-    const update = prompt("Hello please enter your name");
+    const [prompts, setPrompts] = useState("");
 
 
-
-
+    function sortClick (){
+        const inputName = prompt("what's your name");
+        setPrompts(inputName)
+    }
 
 
   return (
     <div className='container'>
-        {update}
-      <h1>Hello What's Good Nigga</h1>
+      
+      <h1>Hello What's Good:{prompts}</h1>
+      <button onClick={sortClick}>Get Prompt</button>
     </div>
   )
 }
