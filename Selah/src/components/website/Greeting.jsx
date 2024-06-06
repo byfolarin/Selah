@@ -7,13 +7,11 @@ const Greeting = () => {
 
     function sortClick (){
         const inputName = prompt("what's your name");
-        const jiggy =  setPrompts(inputName)
-        return jiggy
+        setPrompts(inputName); 
     }
 
   return (
     <div className='container'>
-      
       <h1>Hello What's Good:{prompts}</h1>
       <button onClick={sortClick}>Get Prompt</button>
     </div>
