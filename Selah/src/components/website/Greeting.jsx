@@ -11,7 +11,6 @@ const Greeting = () => {
         return jiggy
     }
 
-
   return (
     <div className='container'>
       
