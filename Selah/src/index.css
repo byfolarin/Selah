@@ -233,4 +233,6 @@ h3{
 
 .submit-input{
   display: flex;
+  height: 24px;
+  align-items: center;
 }
