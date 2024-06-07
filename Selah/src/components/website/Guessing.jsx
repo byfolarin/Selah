@@ -13,7 +13,7 @@ const Guessing = () => {
       <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
 
     <div className="submit-input">
-      <p>Enter a guess:</p>
+      <p>Enter a guess:{text}</p>
       <input type="number" value={text} name="Please fill out this" id="" />
       <button>submit</button>
       </div>
