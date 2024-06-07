@@ -22,6 +22,11 @@ import React from 'react'
 // Once the game restarts, make sure the game logic and UI are completely reset, then go back to step 1.
 
 const Guessing = () => {
+
+    const randomNumber = Math.floor(Math.random() * 100);
+
+
+
   return (
     <div className='container'>
       <h1>Number Guessing Game</h1>
