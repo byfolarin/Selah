@@ -4,17 +4,18 @@ const Guessing = () => {
 
     const [text,setText] = useState(0);
     const [guess, setGuess] = useState([])
+    const [prev, setPrev] = useState('')
     // const [random, setRandom] = useState('');
 
     function clickHandle(e) {
-        setText(e.target.value);
-    }
+        setText(e.target.value); // Update text state with the value
+        
+      }
 
-    const getText = () =>{
-        setText.map(i =>{
-        setGuess(...i, text)
-        })
-    };
+      function handleClick() {
+        const updatedText = text.map((item) => [...item, text]); // Create a new array
+        setPrev(updatedText); // Update prev state with the new array
+      }
 
     // const getRandom = Math.floor(Math.random() * 100);
     // setRandom(getRandom);
@@ -28,10 +29,10 @@ const Guessing = () => {
     <div className="submit-input">
       <p>Enter a guess:</p>
       <input type="number" value={text} onChange={clickHandle} id="" />
-      <button onClick={getText} >submit</button>
+      <button onClick={handleClick}>submit</button>
       </div>
 
-      <p>Previous Guess:{getText}</p>
+      <p>Previous Guess:{prev}</p>
       <p>Wrong</p>
       <p>Last Guess was too Low</p>
     </div>
