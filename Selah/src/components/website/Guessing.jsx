@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Guessing = () => {
 
     const [text,setText] = useState('');
+    const [guess, setGuess] = useState([])
     const randomNumber = Math.floor(Math.random() * 100);
 
 
@@ -14,10 +15,16 @@ const Guessing = () => {
 
     <div className="submit-input">
       <p>Enter a guess:{text}</p>
-      <input type="number" value={text} name="Please fill out this" id="" />
+      <input type="number"  name="Please fill out this" id="" />
       <button>submit</button>
       </div>
+
+      <p>Previous Guess:{guess}</p>
+      <p>Wrong</p>
+      <p>Last Guess was too Low</p>
     </div>
+
+
   )
 }
 
