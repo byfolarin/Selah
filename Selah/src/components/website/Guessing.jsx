@@ -3,18 +3,16 @@ import React, { useEffect, useState } from 'react'
 const Guessing = () => {
 
     const [text,setText] = useState(0);
-    const [guess, setGuess] = useState([])
-    const [prev, setPrev] = useState([])
+    const [guess, setGuess] = useState([]);
+    const [prev, setPrev] = useState([]);
     // const [random, setRandom] = useState('');
 
     function clickHandle(e) {
-        setText(e.target.value); // Update text state with the value
-        
+        setText(e.target.value); // Update text state with the value 
       }
 
     function handleClick(){
-       const getGap = text.map((item) => [...item,text]);
-        setPrev(getGap); // Optionally set prev state with the value (if needed)
+        setPrev(item =>[...item,text]);
     }
 
     // const getRandom = Math.floor(Math.random() * 100);
