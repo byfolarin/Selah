@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react'
 const Guessing = () => {
 
     const [text,setText] = useState(0);
-    const [guess, setGuess] = useState([]);
+    // const [guess, setGuess] = useState([]);
     const [prev, setPrev] = useState([]);
-    // const [random, setRandom] = useState('');
+    const [random, setRandom] = useState('');
 
     function clickHandle(e) {
         setText(e.target.value); // Update text state with the value 
@@ -14,9 +14,15 @@ const Guessing = () => {
     function handleClick(){
         setPrev(item =>[...item,text]);
     }
+    
+    useEffect(()=>{
+    const getRandom = Math.floor(Math.random() * 100);
+    setRandom(getRandom);
+    },[])
+    
 
-    // const getRandom = Math.floor(Math.random() * 100);
-    // setRandom(getRandom);
+
+
 
   return (
     <div className='container'>
@@ -30,13 +36,15 @@ const Guessing = () => {
       <button onClick={handleClick} >submit</button>
       </div>
 
-      <p>Previous Guess:{prev}</p>
-      <p>Wrong</p>
+      <p>Previous Guess:{prev.map(x =>(
+        <span>{x} </span>
+      ))}</p>
+      <p className={`${true ? 'new-btn' : 'h1'}`}>Wrong</p>
       <p>Last Guess was too Low</p>
     </div>
-
-
   )
 }
+
+
 
 export default Guessing
