@@ -21,9 +21,10 @@ const Guessing = () => {
     setRandom(getRandom);
     },[])
 
-    if (handleClick >= setRandom){
-      console.log("Too high") 
-    } else (console.log("You're right"));
+
+    if (prev.length >= 10){
+      console.log('more')
+    }
 
 
   return (
