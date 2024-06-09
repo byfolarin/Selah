@@ -13,6 +13,7 @@ const Guessing = () => {
 
     function handleClick(){
         setPrev(item =>[...item,text]);
+        setText(" ")
     }
     
     useEffect(()=>{
@@ -20,8 +21,6 @@ const Guessing = () => {
     setRandom(getRandom);
     },[])
     
-
-
 
 
   return (
@@ -39,7 +38,7 @@ const Guessing = () => {
       <p>Previous Guess:{prev.map(x =>(
         <span>{x} </span>
       ))}</p>
-      <p className={`${true ? 'new-btn' : 'h1'}`}>Wrong</p>
+      <p>Wrong</p>
       <p>Last Guess was too Low</p>
     </div>
   )
