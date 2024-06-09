@@ -23,8 +23,6 @@ const Guessing = () => {
 
     if (handleClick >= setRandom){
       console.log("Too high") 
-    }  else if (handleClick < setRandom){
-      console.log("Too low")
     } else (console.log("You're right"));
 
 
