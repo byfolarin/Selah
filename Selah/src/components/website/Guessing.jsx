@@ -20,7 +20,12 @@ const Guessing = () => {
     const getRandom = Math.floor(Math.random() * 100);
     setRandom(getRandom);
     },[])
-    
+
+    if (handleClick > setRandom){
+      console.log("Too high") 
+    }  else if (handleClick < setRandom){
+      console.log("Too low")
+    } else (console.log("You're right"));
 
 
   return (
