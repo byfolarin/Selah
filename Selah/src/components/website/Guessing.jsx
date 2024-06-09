@@ -26,15 +26,9 @@ const Guessing = () => {
 
     const preview = () =>{
       if (prev.length >= 10){
-        console.log('more')
-      }
+        disabled=true
+      } else (disabled=!true)
     }
-
-    const styles = {
-      disable: preview ? 'disable' : 'enable',
-    };
-
-
    
 
 
@@ -47,7 +41,7 @@ const Guessing = () => {
     <div className="submit-input">
       <p>Enter a guess:</p>
       <input type="number" value={text} onChange={clickHandle} id="" />
-      <button onClick={handleClick} style={styles}>submit</button>
+      <button onClick={handleClick} disabled={`${preview}`}>submit</button>
       </div>
 
       <p>Previous Guess:{prev.map(x =>(
