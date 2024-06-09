@@ -7,6 +7,8 @@ const Guessing = () => {
     const [prev, setPrev] = useState([]);
     const [random, setRandom] = useState('');
 
+    
+
     function clickHandle(e) {
         setText(e.target.value); // Update text state with the value 
       }
@@ -22,9 +24,18 @@ const Guessing = () => {
     },[])
 
 
-    if (prev.length >= 10){
-      console.log('more')
+    const preview = () =>{
+      if (prev.length >= 10){
+        console.log('more')
+      }
     }
+
+    const styles = {
+      disable: preview ? 'disable' : 'enable',
+    };
+
+
+   
 
 
   return (
@@ -36,7 +47,7 @@ const Guessing = () => {
     <div className="submit-input">
       <p>Enter a guess:</p>
       <input type="number" value={text} onChange={clickHandle} id="" />
-      <button onClick={handleClick} >submit</button>
+      <button onClick={handleClick} style={styles}>submit</button>
       </div>
 
       <p>Previous Guess:{prev.map(x =>(
