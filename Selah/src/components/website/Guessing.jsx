@@ -21,7 +21,7 @@ const Guessing = () => {
     setRandom(getRandom);
     },[])
 
-    if (handleClick > setRandom){
+    if (handleClick >= setRandom){
       console.log("Too high") 
     }  else if (handleClick < setRandom){
       console.log("Too low")
