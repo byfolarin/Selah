@@ -3,13 +3,9 @@ import React, { useEffect, useState } from 'react'
 const Guessing = () => {
 
     const [text,setText] = useState(0);
-    // const [guess, setGuess] = useState([]);
     const [prev, setPrev] = useState([]);
-    const [random, setRandom] = useState('');
-
+    const [random, setRandom] = useState(0);
     const [disableds, setDisabled] = useState(false); // Initial state for disabled
-
-  
     
 
     function clickHandle(e) {
@@ -18,8 +14,8 @@ const Guessing = () => {
 
     function handleClick(){
         setPrev(item =>[...item,text]);
-        setText(" ")
-        setDisabled(prev.length >= 10)
+        setText(" ");
+        setDisabled(prev.length >= 9);
     }
     
     useEffect(()=>{
@@ -27,13 +23,15 @@ const Guessing = () => {
     setRandom(getRandom);
     },[])
 
+    // console.log(random)
 
-    // const preview = () =>{
-    //   if (prev.length >= 10){
-    //     disabled=true
-    //   } else (disabled=!true)
-    // }
-   
+      const preview = () =>{
+        if (random > text){
+        console.log("Your text is too high")
+        } else if (random === text){
+          console.log("Perfect score")
+        } else ("Your text is too low")
+      }
 
 
   return (
