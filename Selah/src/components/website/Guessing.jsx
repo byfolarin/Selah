@@ -12,26 +12,27 @@ const Guessing = () => {
         setText(e.target.value); // Update text state with the value 
       }
 
+
+      useEffect(()=>{
+        const getRandom = Math.floor(Math.random() * 100);
+        setRandom(getRandom);
+        },[])
+    
+
     function handleClick(){
         setPrev(item =>[...item,text]);
         setText(" ");
         setDisabled(prev.length >= 9);
-    }
+        
+        if (text > random ){
+          console.log("Your text is too high")
+          } else if (text < random ){
+            console.log("Your text is too low")
+          } else ( console.log("Perfect Score"))
+        }
     
-    useEffect(()=>{
-    const getRandom = Math.floor(Math.random() * 100);
-    setRandom(getRandom);
-    },[])
-
-    // console.log(random)
-
-      const preview = () =>{
-        if (random > text){
-        console.log("Your text is too high")
-        } else if (random === text){
-          console.log("Perfect score")
-        } else ("Your text is too low")
-      }
+ 
+    console.log(random)
 
 
   return (
@@ -49,8 +50,7 @@ const Guessing = () => {
       <p>Previous Guess:{prev.map(x =>(
         <span>{x} </span>
       ))}</p>
-      <p>Wrong</p>
-      <p>Last Guess was too Low</p>
+      <p>{text > random ? "Last Guess was too high" : text < random ? "Last guess was too low" : "You're right"}</p>
     </div>
   )
 }
