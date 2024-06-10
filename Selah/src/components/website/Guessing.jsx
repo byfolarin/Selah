@@ -7,6 +7,9 @@ const Guessing = () => {
     const [prev, setPrev] = useState([]);
     const [random, setRandom] = useState('');
 
+    const [disableds, setDisabled] = useState(false); // Initial state for disabled
+
+  
     
 
     function clickHandle(e) {
@@ -16,6 +19,7 @@ const Guessing = () => {
     function handleClick(){
         setPrev(item =>[...item,text]);
         setText(" ")
+        setDisabled(prev.length >= 10)
     }
     
     useEffect(()=>{
@@ -24,11 +28,11 @@ const Guessing = () => {
     },[])
 
 
-    const preview = () =>{
-      if (prev.length >= 10){
-        disabled=true
-      } else (disabled=!true)
-    }
+    // const preview = () =>{
+    //   if (prev.length >= 10){
+    //     disabled=true
+    //   } else (disabled=!true)
+    // }
    
 
 
@@ -41,7 +45,7 @@ const Guessing = () => {
     <div className="submit-input">
       <p>Enter a guess:</p>
       <input type="number" value={text} onChange={clickHandle} id="" />
-      <button onClick={handleClick} disabled={`${preview}`}>submit</button>
+      <button onClick={handleClick} disabled={disableds}>submit</button>
       </div>
 
       <p>Previous Guess:{prev.map(x =>(
