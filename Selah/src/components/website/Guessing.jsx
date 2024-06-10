@@ -5,7 +5,7 @@ const Guessing = () => {
     const [text,setText] = useState(0);
     const [prev, setPrev] = useState([]);
     const [random, setRandom] = useState(0);
-    const [disableds, setDisabled] = useState(false); // Initial state for disabled
+    const [disabled, setDisabled] = useState(false); // Initial state for disabled
     
 
     function clickHandle(e) {
@@ -35,6 +35,11 @@ const Guessing = () => {
     console.log(random)
 
 
+    const message =  text > random ? "Last Guess was too high" :
+                      text < random ? "Last Guess was too low" :
+                       "Perfect Score";
+
+
   return (
     <div className='container'>
       <h1>Number Guessing Game</h1>
@@ -44,13 +49,13 @@ const Guessing = () => {
     <div className="submit-input">
       <p>Enter a guess:</p>
       <input type="number" value={text} onChange={clickHandle} id="" />
-      <button onClick={handleClick} disabled={disableds}>submit</button>
+      <button onClick={handleClick} disabled={disabled}>submit</button>
       </div>
 
       <p>Previous Guess:{prev.map(x =>(
         <span>{x} </span>
       ))}</p>
-      <p>{text > random ? "Last Guess was too high" : text < random ? "Last guess was too low" : "You're right"}</p>
+      <p>{message}</p>
     </div>
   )
 }
