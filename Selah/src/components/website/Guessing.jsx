@@ -24,17 +24,11 @@ const Guessing = () => {
         setPrev(item =>[...item,text]);
         setText(" ");
         setDisabled(prev.length >= 9);
-        
-
-        
-        
-        if (text > random ){
-          console.log("Your text is too high")
-          } else if (text < random ){
-            console.log("Your text is too low")
-          } else ( console.log("Perfect Score"))
     }
-    
+
+  
+
+
  
     console.log(random)
 
@@ -54,7 +48,7 @@ const Guessing = () => {
       <p>Previous Guess:{prev.map(x =>(
         <span>{x} </span>
       ))}</p>
-      <p>{prev > random ? "Last Guess was too high" : prev < random ? "Last guess was too low" : "Perfect Score"}</p>
+      <p></p>
     </div>
   )
 }
