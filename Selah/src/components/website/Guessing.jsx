@@ -6,6 +6,7 @@ const Guessing = () => {
     const [prev, setPrev] = useState([]);
     const [random, setRandom] = useState(0);
     const [disableds, setDisabled] = useState(false); // Initial state for disabled
+    const [message, setMessage] = useState("")
     
 
     function clickHandle(e) {
@@ -24,12 +25,15 @@ const Guessing = () => {
         setText(" ");
         setDisabled(prev.length >= 9);
         
+
+        
+        
         if (text > random ){
           console.log("Your text is too high")
           } else if (text < random ){
             console.log("Your text is too low")
           } else ( console.log("Perfect Score"))
-        }
+    }
     
  
     console.log(random)
