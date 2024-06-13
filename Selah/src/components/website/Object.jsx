@@ -4,7 +4,7 @@ function MyComponent() {
   const [person, setPerson] = useState({ greet: "Hey Good morning" });
 
   const handleClick = () => {
-    const newPerson = { ...person, greet: "Hello there" }; // Directly update object
+    const newPerson = { ...person, greet: "Hello there" }; 
     setPerson(newPerson);
   };
 
