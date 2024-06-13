@@ -23,12 +23,31 @@ const Guessing = () => {
     function handleClick(){
         setPrev(item =>[...item,text]);
         setText(" ");
-        setDisabled(prev.length >= 9);
+        setDisabled(prev.length === 9);
+
     }
+
+
+    useEffect (() =>{
+      const newMessage = (prev, random) =>{
+
+        let newMessage;
+
+        if (prev < random){
+        newMessage = "Your text is too low"
+        } else if (prev > random){
+        newMessage = "Your text is too low"
+        } else (newMessage = "Perfect score")
+      }
+
+    setMessage(newMessage);
+    }, [])
+
 
   
 
-
+  
+  
  
     console.log(random)
 
@@ -48,7 +67,7 @@ const Guessing = () => {
       <p>Previous Guess:{prev.map(x =>(
         <span>{x} </span>
       ))}</p>
-      <p></p>
+      <p >Hello {message}</p>
     </div>
   )
 }
