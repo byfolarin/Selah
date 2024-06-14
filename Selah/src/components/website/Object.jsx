@@ -8,7 +8,7 @@ function MyComponent() {
     setPerson(newPerson);
   };
 
-  return (
+return (
     <div>
       <h1>{person.greet}</h1>
       <button onClick={handleClick}>Change Greet</button>
