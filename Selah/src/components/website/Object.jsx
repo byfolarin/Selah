@@ -4,7 +4,7 @@ function MyComponent() {
   const [person, setPerson] = useState({ greet: "Hey Good morning" });
 
   const handleClick = () => {
-    const newPerson = { ...person, greet: "Hello there" }; 
+    const newPerson = { ...person, greet: "Hello there, how are you today" }; 
     setPerson(newPerson);
   };
 
