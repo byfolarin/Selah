@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
 function MyComponent() {
-  const [person, setPerson] = useState({ greet: "Hey Good morning" });
+  const [person, setPerson] = useState({ greet: "Hey  Good morning" });
 
   const handleClick = () => {
-    const newPerson = { ...person, greet: "Hello there, how are you today" }; 
-    setPerson(newPerson);
+    const newPerson = { ...person, greet: "Hello there" }; 
+    setPerson(newPerson.concat("Hiya"));
   };
 
 return (
