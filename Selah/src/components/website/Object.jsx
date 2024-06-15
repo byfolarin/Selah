@@ -5,13 +5,13 @@ function MyComponent() {
 
   const handleClick = () => {
     const newPerson = { ...person, greet: "Hello there" }; 
-    setPerson(newPerson.concat("Hiya"));
+    setPerson(newPerson);
   };
 
 return (
     <div>
       <h1>{person.greet}</h1>
-      <button onClick={handleClick}>Change Greet</button>
+      <button onClick={handleClick}>GET GREET</button>
     </div>
   );
 }
