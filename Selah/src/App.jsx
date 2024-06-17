@@ -10,6 +10,7 @@ import { useState } from 'react'
 import Greeting from './components/website/Greeting'
 import Guessing from './components/website/Guessing'
 import Object from './components/website/Object'
+import Fetch from './components/product/Fetch'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
                           <Link to="/Calculator" className='navv'>Calculator</Link>
                           <Link to="/Greeting" className='navv'>Greeting</Link>
                           <Link to="/Guessing" className='navv'>Guessing</Link>
+                          <Link to="/Fetch" className='navv'>Fetch</Link>
                           <Link to="/Object" className='navv'>Object</Link>
                         </ul>
                     </nav>
@@ -51,6 +53,7 @@ function App() {
                   <Route path='/Percentage' element={ <Percentage/>} />
                   <Route path='/Object' element={ <Object/>} />
                   <Route path='/Guessing' element={ <Guessing/>} />
+                  <Route path='/Fetch' element={ <Fetch/>} />
                   <Route path='/Calculator' element={ <Calculator 
                   input = {input} setInput = {setInput}
                   newinput = {newinput} setNewinput = {setNewinput}
