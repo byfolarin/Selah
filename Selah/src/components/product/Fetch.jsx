@@ -6,26 +6,23 @@ const Fetch = () => {
 
     console.log(data.meals); 
 
+    fetch(url)
 
+      .then(response => {
 
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`); // Throw an error for non-200 status codes
+          }
+          return response.json(); // Parse the response as JSON
+        })
 
-    // fetch(url)
-
-    //   .then(response => {
-
-    //     if (!response.ok) {
-    //         throw new Error(`HTTP error! status: ${response.status}`); // Throw an error for non-200 status codes
-    //       }
-    //       return response.json(); // Parse the response as JSON
-    //     })
-
-    //   .then(data => {
-    //     console.log('Fetched data:', data); // Do something with the fetched data
-    //   })
+      .then(data => {
+        console.log('Fetched data:', data); // Do something with the fetched data
+      })
       
-    //   .catch(error => {
-    //     console.error('Error fetching data:', error); // Handle errors
-    //   });
+      .catch(error => {
+        console.error('Error fetching data:', error); // Handle errors
+      });
 
 
 
