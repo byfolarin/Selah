@@ -2,9 +2,7 @@ import React from 'react'
 
 const Fetch = () => {
 
-    const url = 'https://www.themealdb.com/api/json/v1/1/list.php?c=list'; // Replace with the actual API endpoint
-
-    console.log(data.meals); 
+    const url = 'https://www.themealdb.com/api/json/v1/1/list.php?c=list'; 
 
     fetch(url)
 
