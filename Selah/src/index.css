@@ -11,12 +11,16 @@
 
 
 html{
-  background-color: #F9F7F2;
+  background-color: #FFFEFE;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+
+body{
+  margin: 0px 128px;
+}
 .wrapper{
   display: flex;
   flex-direction: column;
@@ -33,7 +37,7 @@ html{
 .container{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   margin: 0px auto;
 
 }
@@ -61,8 +65,8 @@ html{
 .logo{
   text-decoration: none;
   font-size: 24px;
-  font-family: "Hedvig Letters Serif", serif;
-  font-weight: bold;
+  font-family: "Instrument Serif", serif;
+  font-weight: 600;
   color: #2e3335;
 }
 
@@ -84,15 +88,24 @@ html{
 } */
 
 h1{
-  font-size: 38px;
-  font-family: "Hedvig Letters Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+  
+  font-family: "Instrument Serif", serif;
   font-style: normal;
-  line-height: 48px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 64px;
   color: #2e3335;
   margin: 0px;
+  letter-spacing: -1px;
+  font-size: 64px;
   
+}
+
+
+
+.obliques{
+ color: #6F6E73;
+  font-style: italic;
 }
 
 h2{
