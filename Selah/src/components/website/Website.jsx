@@ -20,8 +20,13 @@ const Website = () => {
         </h2>
 
       <div className="get-started-button">
+        
         <button className='Sign-up-button'>
           Get Started
+          </button>
+
+          <button className='Sign-up-button'>
+          Register as a Church
           </button>
       </div>
 
