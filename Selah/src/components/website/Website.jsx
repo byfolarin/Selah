@@ -21,7 +21,7 @@ const Website = () => {
 
       <div className="get-started-button">
         <button className='Sign-up-button'>
-          Register to our Mailing List
+          Get Started
           </button>
       </div>
 

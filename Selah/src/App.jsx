@@ -30,13 +30,13 @@ function App() {
                           <Link to="/Case" className='navv'>Case</Link>
                           <Link to="/About" className='navv'>About</Link>
                           <Link to="/Contact" className='navv'>Contact</Link>
-                          <Link to="/Timer" className='navv'>Timer</Link>
+                          {/* <Link to="/Timer" className='navv'>Timer</Link>
                           <Link to="/Percentage" className='navv'>Percentage</Link>
                           <Link to="/Calculator" className='navv'>Calculator</Link>
                           <Link to="/Greeting" className='navv'>Greeting</Link>
                           <Link to="/Guessing" className='navv'>Guessing</Link>
                           <Link to="/Fetch" className='navv'>Fetch</Link>
-                          <Link to="/Object" className='navv'>Object</Link>
+                          <Link to="/Object" className='navv'>Object</Link> */}
                         </ul>
                     </nav>
                   </div>
