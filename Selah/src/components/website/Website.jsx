@@ -9,22 +9,22 @@ const Website = () => {
 
         
 
+      <div className="header-h1">
 
-
-        <h1>Focus on Ministry, We'll Manage the <br /> 
-            Mundane. <span className='obliques'> Streamline Your Church  <br /> 
+        <h1>Focus on Ministry: We'll Help Manage the <br /> 
+            Essentials. <span className='obliques'> Streamline Your Church  <br /> 
             Operations. </span>
         </h1>
 
-        <h2>With the endless possibilities in our software, 
-            you no longer have to worry about effectively managing
-            your Church and administrative activities.
+        <h2 className='h2-top-top'>By automating tasks, simplifying communication, and fostering engagement, empower your church to focus on its mission and cultivate a thriving community.
         </h2>
 
       <div className="get-started-button">
         <button className='Sign-up-button'>
           Register to our Mailing List
           </button>
+      </div>
+
       </div>
 
 
