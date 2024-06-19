@@ -20,140 +20,60 @@ const Website = () => {
         </h2>
 
       <div className="get-started-button">
-        
+
         <button className='Sign-up-button'>
           Get Started
           </button>
-
-          <button className='Sign-up-button'>
-          Register as a Church
-          </button>
       </div>
 
+      
+
+      <section className='section-2'>
+
+      <h1 className='sec-h1'>What are we Building</h1>
+
+      <div className="details-grid">
+
+              <div className="event shell">
+                <h2>Live event</h2>
+              </div>
+              <div className="member shell">
+                <h2>Member Management </h2>
+              </div>
+              
       </div>
 
-
-
-      <div className="section-2">
-
-      <div className='secondary-heading'>
-      <h1 >
-        What are we Building
-      </h1>
-
-      <h2 className='h2'>
-          Everything you need to administer your Church.<br /> 
-        While you handle offline, we help you set up online
-      </h2>
-      </div>
-
-
-
-      <div className="features-list">
-            <div className="list-style-type">
-
-          <div>
-          <h3 >
-           1. Live Services
-          </h3>
-
-          <p className='this-class'>
-          Effortlessly plan and create events while seamlessly tracking attendance. 
-          </p>
-          </div>
-
-          <div>
-          <h3>
-            2. Member Management
-          </h3>
-
-          <p className='this-class'>
-          Effortlessly plan and create events while seamlessly tracking attendance. 
-          </p>
-          </div>
-
-          <div>
-          <h3>
-            3. Group Messaging
-          </h3>
-
-          <p className='this-class'>
-          Effortlessly plan and create events while seamlessly tracking attendance. 
-          </p>
-          </div>
-
+      <div className="details-grid">
+      
+      
+            <div className="message shell">
+            <h2> Real time messaging </h2>
             </div>
 
-             <div className="list-style-type">
 
-          <div>
-          <h3>
-            4. Donation Integration
-          </h3>
-
-          <p className='this-class'>
-          Effortlessly plan and create events while seamlessly tracking attendance. 
-          </p>
-          </div>
-
-          <div>
-          <h3>
-            5. Community Management
-          </h3>
-
-          <p className='this-class'>
-          Effortlessly plan and create events while seamlessly tracking attendance. 
-          </p>
-          </div>
-
-          <div>
-          <h3>
-           6. Payroll System
-          </h3>
-
-          <p className='this-class'>
-          Effortlessly plan and create events while seamlessly tracking attendance. 
-          </p>
-          </div>
-
-            </div>
+              <div className="member shell">
+              <h2>Financial Tracking   </h2> 
+              </div>
+       
       </div>
 
-      </div>
+      </section>
 
-
-
-
-
-
-      <div className="section-3">
-        <div className="box"></div>
-
-
-
-
-
-        <div className='secondary-heading'>
-      <h1 >
-        Why are we Building
-      </h1>
-
-      <h2 className='h2'>
-         The Church has an organized process, that needs to be documented <br />
-        and adapted into the digital age. 
-      </h2>
-
-      <div className="get-started-button">
-        <button className='Sign-up-button'>
-          Read About
-          </button>
       </div>
 
 
 
       
-      </div>
-      </div>
+
+      
+
+
+
+
+
+
+     
+      
 
       </div>
 
