@@ -8,7 +8,7 @@ const Greeting = () => {
     function sortClick (){
         const inputName = prompt("what's your name");
         setPrompts(inputName); 
-    }
+    }''
 
   return (
     <div className='container'>
