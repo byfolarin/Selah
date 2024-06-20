@@ -240,29 +240,10 @@ h3{
   line-height: 24px;
 }
 
-/* section-3 */
-.section-3{
-  margin: 64px 0px;
-}
-
-.box{
-  background-color: #65696a;
-  width: 100%;
-  height: 360px;
-  justify-content: center;
-}
 
 
-.section-div{
-  margin: 42px 0px;
-}
 
 
-.setH1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 
 
@@ -304,3 +285,35 @@ h3{
   height: 24px;
   align-items: center;
 }
+
+
+/* section-3  */
+
+.section-3{
+  width: 100%;
+}
+
+.new-details-grid{
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+}
+
+.wrap-grid{
+  margin:32px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wrap-shell{
+  width: 400px;
+  height: 480px;
+  background-color: #EFEFF0;
+  border-radius: 24px;
+}
+
+.up-h1{
+  font-size: 42px;
+}
+

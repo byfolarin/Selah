@@ -59,6 +59,45 @@ const Website = () => {
 
       </section>
 
+
+
+
+
+
+      <section className='section-3'>
+
+      <h1 className='sec-h1'>Building into the Future</h1>
+
+
+    
+      <div className="new-details-grid">
+      
+      
+              <div className="wrap-grid">
+                  <div className="wrap-shell"></div>
+                  <h1 className='up-h1'>Community Discussion</h1> 
+              </div>
+
+              <div className="wrap-grid">
+                  <div className="wrap-shell"></div>
+                  <h1 className='up-h1'>Role Assignment</h1> 
+              </div>
+
+              <div className="wrap-grid">
+                  <div className="wrap-shell"></div>
+                 
+                  <h1 className='up-h1' >Branch Oversee</h1> 
+              </div>
+
+
+       
+      </div>
+      
+       
+     
+
+      </section>
+
       </div>
 
 
