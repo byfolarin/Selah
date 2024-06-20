@@ -32,15 +32,10 @@ const Website = () => {
 
       <h1 className='sec-h1'>What are we Building</h1>
 
-      <div className="details-grid">
-
-        
-        
+      <div className="details-grid">        
               <div className="event shell">
                 <h1>Live event</h1>
               </div>
-
-
 
               <div className="member shell">
                 <h1>Member Management </h1>
