@@ -34,11 +34,16 @@ const Website = () => {
 
       <div className="details-grid">
 
+        
+        
               <div className="event shell">
-                <h2>Live event</h2>
+                <h1>Live event</h1>
               </div>
+
+
+
               <div className="member shell">
-                <h2>Member Management </h2>
+                <h1>Member Management </h1>
               </div>
               
       </div>
@@ -47,12 +52,12 @@ const Website = () => {
       
       
             <div className="message shell">
-            <h2> Real time messaging </h2>
+            <h1> Real time messaging </h1>
             </div>
 
 
               <div className="member shell">
-              <h2>Financial Tracking   </h2> 
+              <h1>Financial Tracking   </h1> 
               </div>
        
       </div>
