@@ -34,11 +34,25 @@ const Website = () => {
 
       <div className="details-grid">        
               <div className="event shell">
+                <div className="text-shell">
+
                 <h1>Live event</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</h2>
+                </div>
+
               </div>
 
               <div className="member shell">
-                <h1>Member Management </h1>
+
+                <div className="text-shell">
+                <h1>MemberManagement</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</h2>
+                  </div>
+
               </div>
               
       </div>
@@ -47,12 +61,29 @@ const Website = () => {
       
       
             <div className="message shell">
+
+            <div className="text-shell">
             <h1> Real time messaging </h1>
+
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </h2>
+
+            </div>
             </div>
 
 
               <div className="member shell">
+
+                <div className="text-shell">
               <h1>Financial Tracking   </h1> 
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </h2>
+              </div>
+
               </div>
        
       </div>
