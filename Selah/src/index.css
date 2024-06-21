@@ -59,7 +59,7 @@ body{
 
 .h2-top-top{
   color: #2e3335;
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 
@@ -108,6 +108,7 @@ h1{
   font-family: "Instrument Serif", serif;
   font-style: normal;
   font-weight: 500;
+  text-align: center;
   line-height: 64px;
   color: #2e3335;
   margin: 0px;
@@ -186,7 +187,7 @@ h2{
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   text-align: center;
-  line-height: 58px;
+  line-height: 64px;
   color: #2e3335;
   letter-spacing: -1px;
   font-size: 48px;
@@ -214,7 +215,7 @@ h2{
 
 .text-shell{
   display: flex;
-  flex-direction: column;
+  flex-direction: co;
   align-items: left;
 }
 
