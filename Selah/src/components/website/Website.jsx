@@ -7,8 +7,7 @@ const Website = () => {
     <div className='wrapper'>
       <div className="container">
 
-        
-
+      
       <div className="header-h1">
 
         <h1 className='u-h1'>Focus on Ministry: We'll Help Manage the <br /> 

@@ -46,7 +46,8 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 148px;
+  padding-bottom: 120px;
+  margin-top: 32px;
 }
 
 
@@ -126,6 +127,7 @@ h1{
  color: #989898;
 font-style: italic;
 }
+
 
 h2{
   font-family: "Instrument Sans", sans-serif;
