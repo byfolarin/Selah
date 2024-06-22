@@ -36,9 +36,9 @@ const Website = () => {
                 <div className="text-shell">
 
                 <h1>Live event</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                    Sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.</h2>
+                    aliqua.</h3>
                 </div>
 
               </div>
@@ -47,9 +47,9 @@ const Website = () => {
 
                 <div className="text-shell">
                 <h1>MemberManagement</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                    Sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.</h2>
+                    aliqua.</h3>
                   </div>
 
               </div>
@@ -64,10 +64,10 @@ const Website = () => {
             <div className="text-shell">
             <h1> Real time messaging </h1>
 
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua.
-              </h2>
+              </h3>
 
             </div>
             </div>
@@ -77,10 +77,10 @@ const Website = () => {
 
                 <div className="text-shell">
               <h1>Financial Tracking   </h1> 
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua.
-              </h2>
+              </h3>
               </div>
 
               </div>
@@ -96,7 +96,15 @@ const Website = () => {
 
       <section className='section-3'>
 
+
+        <div className="sec-shell">
+
       <h1 className='sec-h1'>Building into the Future</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </h3>
+              </div>
 
 
     

@@ -203,7 +203,7 @@ h2{
 
 .shell{
   display: flex;
-  padding: 0px 16px;
+  padding: 24px;
   margin-top: 16px;
   align-items: flex-end;
   gap: 16px;
@@ -211,6 +211,10 @@ h2{
   height: 428px;
   background-color: #EFEFF0;
   border-radius: 24px;
+}
+
+.shell h3{
+  color: #65696a;
 }
 
 .shell:hover{
@@ -258,6 +262,10 @@ h3{
   line-height: 24px;
 }
 
+
+.sec-shell{
+  width: 50%;
+}
 
 
 
