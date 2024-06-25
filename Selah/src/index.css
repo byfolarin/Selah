@@ -322,7 +322,7 @@ h3{
 .new-details-grid{
   display: flex;
   gap: 16px;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .wrap-grid{
