@@ -131,8 +131,6 @@ const Website = () => {
        
       </div>
       
-       
-     
 
       </section>
 
@@ -140,10 +138,12 @@ const Website = () => {
 
 
 
-      
+      <section className='top-nav-sec'>
+
+      <h1 className='sec-sec-h1'>Want to Know more?</h1>
 
       
-
+      </section>
 
 
 
