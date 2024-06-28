@@ -140,7 +140,15 @@ const Website = () => {
 
       <section className='top-nav-sec'>
 
+
+      <div className="sec-se">
       <h1 className='sec-sec-h1'>Want to Know more?</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </h3>
+              </div>
+            
 
       
       </section>

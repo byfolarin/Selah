@@ -352,3 +352,8 @@ h3{
 .sec-sec-h1{
 text-align: center;
 }
+
+.sec-se h3{
+  text-align: center;
+  width: 50%;
+  }
