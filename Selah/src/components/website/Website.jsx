@@ -149,7 +149,9 @@ const Website = () => {
               </h3>
               </div>
             
-
+      <div className="img-images-collation">
+        <img src={} alt="" />
+      </div>
       
       </section>
 
