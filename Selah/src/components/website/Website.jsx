@@ -150,7 +150,7 @@ const Website = () => {
               </div>
             
       <div className="img-images-collation">
-        <img src={} alt="" />
+        
       </div>
       
       </section>
