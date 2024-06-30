@@ -1,5 +1,5 @@
 import React from 'react'
-import people from '.'
+import people from './src/assets/people.jpeg'
 
 const Website = () => {
   return (
@@ -151,7 +151,7 @@ const Website = () => {
               </div>
             
       <div className="img-images-collation">
-        
+        {/* <img src={people} alt="" /> */}
       </div>
       
       </section>
