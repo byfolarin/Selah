@@ -139,11 +139,11 @@ const Website = () => {
 
 
 
-      <section className='top-nav-sec'>
+      {/* <section className='top-nav-sec'>
 
 
       <div className="sec-se">
-      <h1 className='sec-sec-h1'>Want to Know more?</h1>
+      <h1 className='sec-sec-h1'>FAQ?</h1>
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua.
@@ -154,7 +154,31 @@ const Website = () => {
         <img src={people} alt="" />
       </div>
       
-      </section>
+      </section> */}
+
+
+<div className="wrapper-div">
+
+<h1 className='u-h1'>Focus on Ministry: <br /> 
+             <span className='obliques'> We'll handle the rest <br /> 
+            Operations. </span>
+        </h1>
+
+        <h2 className='h2-top-top'>By automating tasks, simplifying communication, and fostering engagement, empower your church to focus on its mission and cultivate a thriving community.
+        </h2>
+
+      <div className="get-started-button">
+
+        <button className='Sign-up-button'>
+          We're still Building/Contact
+          </button>
+
+          <button className='Sign-up-button'>
+          FAQ
+          </button>
+      </div>
+
+      </div>
 
 
 
