@@ -1,4 +1,5 @@
 import React from 'react'
+import people from '.'
 
 const Website = () => {
   return (
