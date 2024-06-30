@@ -21,7 +21,7 @@ const Website = () => {
 
       <div className="get-started-button">
 
-        <button className='Sign-up-button'>
+        <button className='Sign-up-button' link>
           We're still Building/Contact
           </button>
       </div>
