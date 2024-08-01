@@ -139,7 +139,7 @@ const Website = () => {
 
 
 
-      {/* <section className='top-nav-sec'>
+      <section className='top-nav-sec'>
 
 
       <div className="sec-se">
@@ -154,7 +154,7 @@ const Website = () => {
         <img src={people} alt="" />
       </div>
       
-      </section> */}
+      </section>
 
 
 <div className="wrapper-div">
