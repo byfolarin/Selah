@@ -11,7 +11,7 @@ const Website = () => {
       
       <div className="header-h1">
 
-        <h1 className='u-h1'>Focus on Ministry: We'll Help Manage the <br /> 
+        <h1 className=' items-end text-left'>Focus on Ministry: We'll Help Manage the <br /> 
             Essentials. <span className='obliques'> Streamline Your Church  <br /> 
             Operations. </span>
         </h1>
