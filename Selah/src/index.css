@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 @font-face {
   font-family: 'Sequel Sans';  /* Replace with your actual font name */
   src: local('fonts'),  /* Name of the folder containing your font files */
